@@ -12,6 +12,7 @@ namespace ConsoleApp2
             private double meridiano;
             private double paralelo;
             private double distancia_tierra;
+            
 
             public Satelite(double m, double p, double d)
             {
@@ -45,9 +46,9 @@ namespace ConsoleApp2
             {
 
             }
-            public Boolean EnOrbita(int distancia_tierra)
+            public Boolean EnOrbita()
             {
-            return distancia_tierra < 0 = false;
+            return distancia_tierra > 0;
             //if (distancia_tierra<0)
             //    {
             //    return false;
