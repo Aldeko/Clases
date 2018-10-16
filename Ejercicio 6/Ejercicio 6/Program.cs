@@ -19,7 +19,12 @@ namespace Ejercicio_6
             Console.WriteLine(" ");
             c1.PrintInfo();
             Console.ReadLine();
-            
+
+            consumo co1 = new consumo();
+            co1.PrintInfo();
+            Console.ReadLine();
+
+
         }
     }
 }

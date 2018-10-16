@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B8AEFFA-88DC-4061-9C96-C9E0CA8FA91F}</ProjectGuid>
+    <ProjectGuid>{3F9F3A4B-1D74-4BE0-856A-CF1CEAFFC9DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio_6</RootNamespace>
-    <AssemblyName>Ejercicio 6</AssemblyName>
+    <RootNamespace>Ejercicio_7</RootNamespace>
+    <AssemblyName>Ejercicio 7</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Coches.cs" />
-    <Compile Include="consumo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
